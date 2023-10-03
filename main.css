@@ -17,3 +17,19 @@ h2 {
     text-align: center;
     text-decoration: underline;
 }
+
+a {
+    color: yellowgreen;
+}
+
+a:visited {
+    color: cyan;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+a:active {
+    color: brown;
+}
