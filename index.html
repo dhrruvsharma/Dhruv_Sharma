@@ -6,8 +6,6 @@
     <meta name="Author" content="Dhruv Sharma">
     <title>Portfolio</title>
     <link rel="stylesheet" href="main.css">
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="javascript.js"></script>
 </head>
 
 <body>
@@ -47,7 +45,7 @@
     </section>
     <section id="form">
         <h2>Contact Me!</h2>
-        <form name="Contact" onsubmit="sendEmail(); reset(); return false" method="post">
+        <form name="Contact" onsubmit="Mail(); reset(); return false;">
             <p>
                 <label for="Name">Enter your name</label>
                 <input type="text" name="Name" id="Name" required autocomplete="on">
@@ -65,6 +63,25 @@
                 <button type="submit" value="Send Email" onclick="sendEmail()">Submit</button>
             </p>
         </form>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function Mail() {
+                let name = getElementById("Name").value;
+                let email = getElementById("Email").value;
+                let message = getElementById("message").value;
+                Email.send({
+                    Host: "smtp.elasticemail.com",
+                    Username: "dhrruvsharma@outlook.com",
+                    Password: "C7ADC34324CC8E2BB3E50849DA3A3322128F",
+                    To: 'dsd71213@gmail.com',
+                    From: email,
+                    Subject: "Someone Contacted You",
+                    Body: "Name: " + name + "<br> Email: " + email + "<br> Message: " + message
+                }).then(
+                    message => alert(message)
+                );
+            }
+        </script>
     </section>
 
     <footer>
