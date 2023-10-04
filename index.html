@@ -60,7 +60,7 @@
                 <textarea name="message" id="message" cols="30" rows="10" required></textarea>
             </p>
             <p>
-                <button type="submit" value="Send Email" onclick="sendEmail()">Submit</button>
+                <button type="submit">Submit</button>
             </p>
         </form>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -68,15 +68,15 @@
             function Mail() {
                 let name = getElementById("Name").value;
                 let email = getElementById("Email").value;
-                let message = getElementById("message").value;
+                let msg = getElementById("message").value;
                 Email.send({
                     Host: "smtp.elasticemail.com",
                     Username: "dhrruvsharma@outlook.com",
                     Password: "C7ADC34324CC8E2BB3E50849DA3A3322128F",
                     To: 'dsd71213@gmail.com',
-                    From: email,
+                    From: "dhrruvsharma@outlook.com",
                     Subject: "Someone Contacted You",
-                    Body: "Name: " + name + "<br> Email: " + email + "<br> Message: " + message
+                    Body: "Name: " + name + "<br> Email: " + email + "<br> Message: " + msg,
                 }).then(
                     message => alert(message)
                 );
