@@ -1,18 +1,21 @@
 * {
     background-color: black;
-    font-size: 32px;
+    font-size: 1.12vw;
     font-family: cursive;
     color: papayawhip;
 }
 
 h1 {
-    font-size: 44px;
+    text-shadow: -1px -1px #000, 1px -1px 0 #000, 1px 1px 0 #000;
+    font-size: 4.5vw;
     color: yellow;
     text-align: center;
+    text-decoration: dotted;
 }
 
 h2 {
-    font-size: 40px;
+    margin: .75vw 10vw 1.75vw 20vw;
+    font-size: 4vw;
     color: magenta;
     text-align: center;
     text-decoration: underline;
@@ -43,4 +46,32 @@ nav ul {
 nav li {
     display: inline;
     margin: 0 20px;
+}
+
+p {
+    margin: 0px 15.4vw .5vw 9.35vw;
+}
+
+section {
+    margin: 2vw 0 2vw 0;
+}
+
+.round {
+    margin: 10px 5px;
+    border: .14vw solid red;
+    border-radius: 200px 50px;
+    text-align: center;
+    border-style: double;
+}
+
+#Skills {
+    text-align: center;
+}
+
+#Skills ul {
+    margin: 0px 15.3vw .5vw 16.5vw;
+}
+
+#Skills h2 {
+    margin: .75vw 6vw 1.75vw 14.35vw;
 }
