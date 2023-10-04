@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 * {
     font-size: 1.3vw;
     font-family: cursive;
-    color: papayawhip;
+    color: black;
 }
 
 body {
-    background-image: url(bgimage5.jpg);
+    background-image: url(pexels-ann-h-1762851.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -15,9 +17,10 @@ body {
 h1 {
     text-shadow: -1px -1px #000, 1px -1px 0 #000, 1px 1px 0 #000;
     font-size: 4.5vw;
-    color: rgb(239, 0, 56);
+    color: orange;
     text-align: center;
     text-decoration: dotted;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h2 {
@@ -25,6 +28,7 @@ h2 {
     color: rgb(7, 197, 255);
     text-align: center;
     text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
 }
 
 #About h2 {
@@ -32,15 +36,15 @@ h2 {
 }
 
 a {
-    color: yellowgreen;
+    color: black;
 }
 
 a:visited {
-    color: cyan;
+    color: green;
 }
 
 a:hover {
-    color: greenyellow;
+    color: darkgoldenrod;
 }
 
 a:active {
@@ -60,6 +64,7 @@ nav li {
 
 p {
     margin: 0px 15.4vw .5vw 9.35vw;
+    font-family: 'Mulish', sans-serif;
 }
 
 section {
@@ -103,6 +108,7 @@ form {
 
 input,
 label,
-textarea {
+textarea,
+button {
     background-color: transparent;
 }
