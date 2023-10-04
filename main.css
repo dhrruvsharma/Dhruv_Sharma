@@ -1,24 +1,34 @@
 * {
-    background-color: black;
-    font-size: 1.12vw;
+    font-size: 1.3vw;
     font-family: cursive;
     color: papayawhip;
+}
+
+body {
+    background-image: url(bgimage5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    letter-spacing: .15vw;
 }
 
 h1 {
     text-shadow: -1px -1px #000, 1px -1px 0 #000, 1px 1px 0 #000;
     font-size: 4.5vw;
-    color: yellow;
+    color: rgb(239, 0, 56);
     text-align: center;
     text-decoration: dotted;
 }
 
 h2 {
-    margin: .75vw 10vw 1.75vw 20vw;
     font-size: 4vw;
-    color: magenta;
+    color: rgb(7, 197, 255);
     text-align: center;
     text-decoration: underline;
+}
+
+#About h2 {
+    margin: .75vw 18vw 1.75vw 20vw;
 }
 
 a {
@@ -72,6 +82,27 @@ section {
     margin: 0px 15.3vw .5vw 16.5vw;
 }
 
+#Skills li {
+    margin-left: 28vw;
+    margin-right: 40vw;
+}
+
 #Skills h2 {
-    margin: .75vw 6vw 1.75vw 14.35vw;
+    margin: .75vw 14vw 1.75vw 14.35vw;
+}
+
+#Contact h2 {
+    font-size: 4vw;
+
+}
+
+form {
+    text-align: center;
+    margin: 3vw 12vw 2vw 12vw;
+}
+
+input,
+label,
+textarea {
+    background-color: transparent;
 }
