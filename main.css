@@ -25,7 +25,7 @@ h1 {
 
 h2 {
     font-size: 4vw;
-    color: rgb(7, 197, 255);
+    color: forestgreen;
     text-align: center;
     text-decoration: underline;
     font-family: 'Permanent Marker', cursive;
@@ -96,14 +96,14 @@ section {
     margin: .75vw 14vw 1.75vw 14.35vw;
 }
 
-#Contact h2 {
+#form h2 {
     font-size: 4vw;
-
+    color: orangered;
 }
 
 form {
     text-align: center;
-    margin: 3vw 12vw 2vw 12vw;
+    margin: 3vw 12vw 2vw 16vw;
 }
 
 input,
