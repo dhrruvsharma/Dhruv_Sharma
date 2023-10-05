@@ -292,7 +292,7 @@ textarea {
 
 @media (max-width: 500px) {
     nav li {
-        display: block;
+        display: inline;
     }
 
     h1 {
@@ -304,7 +304,7 @@ textarea {
     }
 
     .a {
-        font-size: 4vw;
+        font-size: 2.4vw;
     }
 
     #socials a {
