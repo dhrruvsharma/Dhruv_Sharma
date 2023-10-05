@@ -67,7 +67,7 @@ a:active {
     position: sticky;
 }
 
-nav a {
+.a {
     font-size: 1.5vw;
 }
 
@@ -93,8 +93,8 @@ section {
 }
 
 .round {
-    margin: 10px 5px;
-    border: .14vw solid red;
+    margin: 10px 2px;
+    border: .35vw solid red;
     border-radius: 200px 50px;
     text-align: center;
     border-style: double;
@@ -132,7 +132,7 @@ label,
 textarea,
 button {
     background-color: transparent;
-    font-size: 3vw;
+    font-size: 2.1vw;
 }
 
 textarea {
@@ -143,4 +143,11 @@ textarea {
     margin: 0;
     padding: 0;
     text-align: left;
+}
+
+@media (min-width: 500px) {
+    .a {
+        font-size: 2vw;
+    }
+
 }
