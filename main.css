@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     color: black;
-    font-size: 1.3vw;
+    font-size: 2.5vw;
     font-family: cursive;
 }
 
@@ -15,17 +15,12 @@ html {
 
 body {
     background-image: url(pexels-ann-h-1762851.jpg);
-    width: 99%;
-    height: auto;
-    background-repeat: no-repeat;
-    height: 100%;
-    letter-spacing: .15vw;
     background-size: auto;
 }
 
 h1 {
     text-shadow: -1px -1px #000, 1px -1px 0 #000, 1px 1px 0 #000;
-    font-size: 4.5vw;
+    font-size: 7vw;
     color: #CB4C78;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -33,7 +28,7 @@ h1 {
 
 h2 {
     text-shadow: -1px -1px #000, 1px -1px 0 #000, 1px 1px 0 #000;
-    font-size: 4vw;
+    font-size: 6vw;
     color: forestgreen;
     text-align: center;
     text-decoration: underline;
@@ -69,7 +64,7 @@ a:active {
 }
 
 .a {
-    font-size: 1.5vw;
+    font-size: 3vw;
 }
 
 nav ul {
@@ -85,7 +80,7 @@ nav li {
 
 section p {
     margin: 0px 15.4vw .5vw 9.35vw;
-    font-size: 1.5vw;
+    font-size: 2.8vw;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -94,9 +89,9 @@ section {
 }
 
 .round {
-    margin: 10px 2px;
-    border: .35vw solid red;
-    border-radius: 200px 50px;
+    margin: 1vw 2vw;
+    border: .55vw solid red;
+    border-radius: 30vw 21vw;
     text-align: center;
     border-style: double;
 }
@@ -106,7 +101,7 @@ section {
 }
 
 #Skills ul {
-    margin: 0px 15.3vw .5vw 16.5vw;
+    margin: 0 15.3vw .5vw 16.5vw;
 }
 
 #Skills li {
@@ -119,7 +114,7 @@ section {
 }
 
 #form h2 {
-    font-size: 4vw;
+    font-size: 5.5vw;
     color: orangered;
 }
 
@@ -148,8 +143,7 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     z-index: 0;
-    height: 60vw;
-    width: 60vw;
+    width: 48vw;
     border-radius: 50%;
 }
 
@@ -160,32 +154,342 @@ textarea {
 }
 
 #socials a {
-    font-size: 1.5vw;
+    font-size: 3vw;
     margin: 0;
     margin-left: -5vw;
     padding: 0;
     text-align: left;
 }
 
-@media (max-width: 700px) {
-    #socials a {
-        font-size: 2.5vw;
+@media (max-width: 800px) {
+    h1 {
+        font-size: 7vw;
     }
-}
 
-@media (max-width: 500px) {
+    h2 {
+        font-size: 6vw;
+    }
+
     .a {
-        font-size: 2vw;
+        font-size: 3.5vw;
+    }
+
+    section p {
+        margin: 0px 15.4vw .5vw 9.35vw;
+        font-size: 3vw;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    section {
+        margin: 2vw 0 2vw 0;
+    }
+
+    #Skills ul {
+        margin: 0 20.3vw .5vw 16.5vw;
+    }
+
+    #Skills li {
+        margin-left: 28vw;
+        margin-right: 40vw;
+    }
+
+    #Skills h2 {
+        margin: .75vw 14vw 1.75vw 14.35vw;
+    }
+
+    .round {
+        margin: 1vw 2vw;
+        border: .65vw solid red;
+        border-radius: 34vw 26vw;
+        text-align: center;
+        border-style: double;
+    }
+
+    * {
+        font-size: 3vw;
+    }
+
+    #but,
+    label {
+        font-size: 3vw;
     }
 
     #socials a {
         font-size: 3vw;
     }
 
+    #form h2 {
+        font-size: 5.5vw;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 9vw;
+    }
+
+    h2 {
+        font-size: 7.5vw;
+    }
+
+    .a {
+        font-size: 3vw;
+    }
+
+    #socials a {
+        font-size: 3vw;
+    }
+
+    section p {
+        margin: 0px 13.4vw .5vw 9.35vw;
+        font-size: 3.5vw;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    section {
+        margin: 2vw 0 2vw 0;
+    }
+
+
+    #Skills ul {
+        margin: 0 15.3vw .5vw 16.5vw;
+    }
+
+    #Skills li {
+        margin-left: 28vw;
+        margin-right: 40vw;
+    }
+
+    #Skills h2 {
+        margin: .75vw 14vw 1.75vw 14.35vw;
+    }
+
+    .round {
+        margin: 1vw 2vw;
+        border: .65vw solid red;
+        border-radius: 34vw 26vw;
+        text-align: center;
+        border-style: double;
+    }
+
+    * {
+        font-size: 4vw;
+    }
+
+    #but,
+    label {
+        font-size: 4vw;
+    }
+
+    #form h2 {
+        font-size: 7vw;
+    }
+
+    #socials a {
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    nav li {
+        display: block;
+    }
+
+    h1 {
+        font-size: 11vw;
+    }
+
+    h2 {
+        font-size: 9vw;
+    }
+
+    .a {
+        font-size: 4vw;
+    }
+
+    #socials a {
+        font-size: 3vw;
+    }
+
+    section p {
+        margin: 0px 15.4vw .5vw 9.35vw;
+        font-size: 4vw;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    section {
+        margin: 2vw 0 2vw 0;
+    }
+
+    #Skills ul {
+        margin: 0 15.3vw .5vw 16.5vw;
+    }
+
+    #Skills li {
+        margin-left: 28vw;
+        margin-right: 40vw;
+    }
+
+    #Skills h2 {
+        margin: .75vw 14vw 1.75vw 14.35vw;
+    }
+
+    .round {
+        margin: 1vw 2vw;
+        border: .75vw solid red;
+        border-radius: 34vw 26vw;
+        text-align: center;
+        border-style: double;
+    }
+
+    * {
+        font-size: 4.5vw;
+    }
+
+    #but,
+    label {
+        font-size: 4vw;
+    }
+
+    #socials a {
+        font-size: 5vw;
+    }
+
+    #form h2 {
+        font-size: 8vw;
+    }
 }
 
 @media (max-width: 350px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 43px;
+        text-decoration: none;
+    }
+
     nav li {
         display: block;
+    }
+
+    section p {
+        margin: 0px 15.4vw .5vw 9.35vw;
+        font-size: 6vw;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    section {
+        margin: 2vw 0 2vw 0;
+    }
+
+    #Skills ul {
+        margin: 0 15.3vw .5vw 16.5vw;
+    }
+
+    #Skills li {
+        margin-left: 28vw;
+        margin-right: 40vw;
+    }
+
+    #Skills h2 {
+        margin: .75vw 14vw 1.75vw 14.35vw;
+    }
+
+    .round {
+        margin: 1vw 2vw;
+        border: 1.5vw solid red;
+        border-radius: 35% 30%;
+        text-align: center;
+        border-style: double;
+    }
+
+    * {
+        font-size: 5vw;
+    }
+
+    .a {
+        font-size: 4vw;
+    }
+
+    #but,
+    label {
+        font-size: 4vw
+    }
+
+    #socials a {
+        font-size: 4vw;
+    }
+
+    #form h2 {
+        font-size: 12vw;
+    }
+}
+
+@media (max-width: 159px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    section p {
+        margin: 0px 15.4vw .5vw 9.35vw;
+        font-size: 7vw;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    section {
+        margin: 2vw 0 2vw 0;
+    }
+
+    #Skills ul {
+        margin: 0 15.3vw .5vw 16.5vw;
+    }
+
+    #Skills li {
+        margin-left: 20vw;
+        margin-right: 50vw;
+    }
+
+    #Skills h2 {
+        margin: .75vw 14vw 1.75vw 14.35vw;
+    }
+
+    .round {
+        margin: 1vw 2vw;
+        border: 1.5vw solid red;
+        border-radius: 35% 30%;
+        text-align: center;
+        border-style: double;
+    }
+
+    * {
+        font-size: 8vw;
+    }
+
+    .a {
+        font-size: 6vw;
+    }
+
+    #form h2 {
+        font-size: 26px;
+    }
+
+    #but,
+    label {
+        font-size: 6.5vw
+    }
+
+    #socials a {
+        font-size: 7vw;
     }
 }
