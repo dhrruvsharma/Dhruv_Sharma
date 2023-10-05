@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    color: black;
     font-size: 1.3vw;
     font-family: cursive;
-    color: black;
 }
 
 html {
@@ -59,14 +60,18 @@ a:active {
 }
 
 #nav {
+    font-size: 3vw;
     top: 0;
     width: 101%;
     background-color: cyan;
     position: sticky;
 }
 
+nav a {
+    font-size: 1.5vw;
+}
+
 nav ul {
-    font-size: 1vw;
     text-align: center;
     list-style: none;
     margin-bottom: 10px;
@@ -77,9 +82,10 @@ nav li {
     margin: 0 20px;
 }
 
-p {
+section p {
     margin: 0px 15.4vw .5vw 9.35vw;
-    font-family: 'Mulish', sans-serif;
+    font-size: 1.5vw;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 section {
@@ -126,13 +132,15 @@ label,
 textarea,
 button {
     background-color: transparent;
+    font-size: 3vw;
 }
 
 textarea {
     resize: none;
 }
 
-#socials {
-    margin: 2vw;
-    text-align: center;
+#socials p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
