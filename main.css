@@ -16,6 +16,7 @@ html {
 body {
     background-image: url(pexels-ann-h-1762851.jpg);
     background-size: auto;
+    overflow: auto;
 }
 
 h1 {
@@ -58,7 +59,7 @@ a:active {
 #nav {
     font-size: 3vw;
     top: 0;
-    width: 101%;
+    width: 100%;
     background-color: cyan;
     position: sticky;
 }
